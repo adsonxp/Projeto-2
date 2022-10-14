@@ -1,0 +1,107 @@
+:root {
+    --color-1: #a089e1 ;
+    --color-2: #6f32d1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    overflow: none;
+
+}
+
+body {
+    background-image: url(./img/bg-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+/* HEADER SECTION */
+
+#header {
+    background-color: transparent !important;
+    padding: 50px;
+}
+
+#navbar {
+    left: 30%;
+    position: relative;
+}
+
+#search {
+    border-radius: 25px !important;
+    border: #6f32d1 solid 0px;
+}
+
+.nav-item {
+    margin-left: 6vw;
+}
+
+header nav ul li a {
+    color: white !important;
+    transition: .4s ease;
+    font-weight: bold !important;
+    letter-spacing: 2px;
+}
+
+header nav ul li a:hover {
+    transition: .4s ease;
+    transform: translateY(-3px);
+    color: var(--color-2) !important;
+}
+
+.navbar-brand {
+    font-size: 30px !important;
+    color: var(--color-2) !important;
+    margin-left: 8%;
+    text-transform: uppercase;
+}
+
+/* MAIN SECTION */
+
+#container {
+    position: relative;
+    padding-left: 10%;
+}
+
+section h1 {
+    font-size: 80px;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+
+section h3 {
+    color: var(--color-2);
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+
+section h4 {
+    color: rgba(0, 0, 0, 0.336);
+    font-size: 15px;
+    padding-bottom: 60px;
+}
+
+button {
+    padding: 5px 100px;
+    border-radius: 25px !important;
+    border: var(--color-2) 3px solid;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.61);
+    transition: .3s ease;
+}
+
+button:hover {
+    font-weight: bold;
+    color: white;
+    transition: .3s ease;
+    background-color: var(--color-2);
+}
