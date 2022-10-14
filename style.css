@@ -32,8 +32,8 @@ body {
 }
 
 #navbar {
-    left: 30%;
     position: relative;
+    left: 20%;
 }
 
 #search {
@@ -64,6 +64,28 @@ header nav ul li a:hover {
     margin-left: 8%;
     text-transform: uppercase;
 }
+
+@media (max-width:1500px) {
+    #navbar {
+        padding-right: 190px;
+    }
+}
+
+@media (max-width:1300px) {
+    #search {
+        display: none;
+    }
+}
+
+@media (max-width:991px) {
+    .navbar-brand {
+        color: rgba(0, 0, 0, 0.74) !important;
+        font-size: 40px !important;
+        font-weight: bold;
+    }
+}
+
+
 
 /* MAIN SECTION */
 
